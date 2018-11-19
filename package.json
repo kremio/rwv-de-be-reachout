@@ -1,0 +1,40 @@
+{
+  "name": "rwv-de-by-before",
+  "version": "0.0.1",
+  "description": "A web scraper for https://www.reachoutberlin.de/de/chronik",
+  "engines": {
+    "node": "10.7.0"
+  },
+  "main": "scrape.js",
+  "scripts": {
+    "test": "jest --config jest.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kremio/rwv-de-be-reachout.git"
+  },
+  "keywords": [
+    "scraper",
+    "right-wing",
+    "violence",
+    "germany",
+    "reachout",
+    "berlin"
+  ],
+  "author": "Jonathan Crémieux <jonathan@krem.io> (https://krem.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kremio/rwv-de-be-reachout/issues"
+  },
+  "homepage": "https://github.com/kremio/rwv-de-be-reachout#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "request": "^2.88.0",
+    "rwv-sqlite": "git+https://github.com/kremio/rwv-sqlite-js.git",
+    "timezonecomplete": "^5.6.2"
+  },
+  "devDependencies": {
+    "jest": "^23.6.0",
+    "rwv-schema": "git+https://github.com/kremio/rwv-schema-js.git"
+  }
+}

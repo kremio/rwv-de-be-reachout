@@ -1,0 +1,26 @@
+{
+	"uri": "https://domain.tld/path/to/page.html",
+	"title": null,
+	"description": "Eine 33-jährige Frau und ihr 31-jähriger Ehemann, die mit ihrem Baby auf dem Spielplatz am Arminplatz auf einer Decke liegen, werden gegen 16.00 Uhr von einem 58-jährigen Mann aus rassistischer Motivation beleidigt und bedroht. Der 58-Jährige tritt dabei mehrmals gegen den Kinderwagen.",
+	"startDate": "2018-06-25T00:00:00+02:00",
+	"iso3166_2": "DE-BE",
+	"locations": [{
+		"subdivisions": ["Prenzlauer Berg"],
+		"latitude": 52.5514774,
+		"longitude": 13.4111489
+	}],
+	"sources": [{
+		"name": "Polizei Berlin",
+		"publishedDate": "2018-06-26T00:00:00.000+02:00"
+	}, {
+	"name": "Tagesspiegel",
+	"publishedDate": "2018-06-26T00:00:00.000+02:00"
+	}, {
+	"name": "Berliner Morgenpost",
+	"publishedDate": "2018-06-26T00:00:00.000+02:00"
+	}],
+	"motives": null,
+	"contexts": null,
+	"factums": null,
+	"tags": null
+}
