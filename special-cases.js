@@ -9,9 +9,18 @@ module.exports = {
    *   ...
    * }
    * 
-   * note that the following group of properties are parse together, so if you override one, you MUST override all in the group as these properties won't be parsed at all
-   * 
-   * [startDate, endDate, title]
-   * [locations, motives, factums, contexts]
    */
+  'https://www.reachoutberlin.de/de/content/berlin-friedrichshain-220': {
+    sources:[
+      {
+        name:'Tagesspiegel',
+        publishedDate: ( new tc.DateTime( "2018-08-16T00:00"+TIMEZONE ) ).toIsoString()
+    },      {
+        name:'taz',
+        publishedDate: ( new tc.DateTime( "2018-08-16T00:00"+TIMEZONE ) ).toIsoString()
+      },{
+        name:'Berliner Register'
+      }
+    ]
+  }
 }
