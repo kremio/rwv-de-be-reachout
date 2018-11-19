@@ -24,6 +24,7 @@ jest.mock('request')
 
 //Use a pre-fetched sample report
 const sampleReport = fs.readFileSync('./tests/samples/report.html', 'utf8')
+const noSource = fs.readFileSync('./tests/samples/no-source.html', 'utf8')
 
 request.mockImplementation((...args) => {
   const cb = args.pop()
@@ -34,4 +35,14 @@ request.mockImplementation((...args) => {
 test( 'Base test', async () => {
   const result = await scrapeReport( 'https://domain.tld/path/to/page.html' )
   expect( result ).toEqual( reportJson )
+})
+
+test( 'Source without date', async () => {
+  request.mockImplementation((...args) => {
+    const cb = args.pop()
+    cb( null, {statusCode: 200}, noSource )
+  })
+
+  const result = await scrapeReport( 'https://domain.tld/path/to/page.html' )
+  expect( result.sources[0] ).toEqual( {name:'Register Mitte'} )
 })
