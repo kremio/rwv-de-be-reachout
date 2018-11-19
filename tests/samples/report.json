@@ -5,7 +5,7 @@
 	"startDate": "2018-06-25T00:00:00+02:00",
 	"iso3166_2": "DE-BE",
 	"locations": [{
-		"subdivisions": ["Prenzlauer Berg"],
+		"subdivisions": ["Berlin","Prenzlauer Berg"],
 		"latitude": 52.5514774,
 		"longitude": 13.4111489
 	}],
