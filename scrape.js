@@ -139,7 +139,7 @@ class RequestsQueue  {
         //of the previous page to sometimes appear as the 1st report of the current page
         if( this.reportsURLs.length > 0 && this.previousPageLastReportURL == this.reportsURLs[0] ){
           //skip the first report as it has been already processed
-          this.reportsURLs.unshift()
+          this.reportsURLs.shift()
         }
         if( this.reportsURLs.length > 0){
           this.previousPageLastReportURL = this.reportsURLs[this.reportsURLs.length-1]
