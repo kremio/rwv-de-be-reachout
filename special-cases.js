@@ -125,5 +125,28 @@ module.exports = {
         url:'https://berlinonline.de'
       }
     ]
+  },
+  "https://www.reachoutberlin.de/de/content/berlin-treptow-89": {
+    sources:[
+      {
+        name:'Polizei Berlin',
+        publishedDate: ( new tc.DateTime( "2016-08-09T00:00"+TIMEZONE ) ).toIsoString()
+      },
+      {
+        name:'Tagesspiegel',
+        publishedDate: ( new tc.DateTime( "2016-08-09T00:00"+TIMEZONE ) ).toIsoString()
+      },
+      {
+        name:'rbb-online.de',
+        publishedDate: ( new tc.DateTime( "2016-08-08T00:00"+TIMEZONE ) ).toIsoString(),
+        url:'https://rbb-online.de'
+      },
+      {
+        name:'berlinonline.de',
+        publishedDate: ( new tc.DateTime( "2016-08-08T00:00"+TIMEZONE ) ).toIsoString(),
+        url:'https://berlinonline.de'
+      }
+    ]
+
   }
 }
