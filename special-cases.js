@@ -155,5 +155,19 @@ module.exports = {
         publishedDate: ( new tc.DateTime( "2017-02-27T00:00"+TIMEZONE ) ).toIsoString()
       }
     ]
+  },
+  "https://www.reachoutberlin.de/de/content/berlin-treptow-88": {
+    sources:[
+      {
+        name:'Polizei Berlin',
+        publishedDate: ( new tc.DateTime( "2016-09-16T00:00"+TIMEZONE ) ).toIsoString()
+      },
+      {
+        name:'Kleine Anfrage, 17/18824'
+      },
+      {
+        name:'Register Treptow-Köpenick'
+      }
+    ]
   }
 }
