@@ -36,5 +36,20 @@ module.exports = {
         publishedDate: ( new tc.DateTime( "2018-05-05T00:00"+TIMEZONE ) ).toIsoString()
       }
     ]
+  },
+  'https://www.reachoutberlin.de/de/content/berlin-marzahn-112': {
+    sources:[
+      {
+        name:'ReachOut'
+      }
+    ]
+  },
+  'https://www.reachoutberlin.de/de/content/berlin-k%C3%B6penick-76':{
+    sources:[
+      {
+        name:'Polizei Berlin',
+        publishedDate: ( new tc.DateTime( "2017-06-23T00:00"+TIMEZONE ) ).toIsoString()
+      }
+    ]
   }
 }
