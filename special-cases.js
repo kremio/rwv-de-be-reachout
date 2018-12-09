@@ -192,5 +192,17 @@ module.exports = {
     sources:[{
       name: "Antirassistisches Register ASH, Polis*"
     }]
+  },
+  "https://www.reachoutberlin.de/de/content/berlin-treptow-78": {
+    sources:[{
+      name: "Polizei Berlin",
+      publishedDate: ( new tc.DateTime( "2015-03-15T00:00"+TIMEZONE ) ).toIsoString()
+    },{
+      name: "Tagesspiegel",
+      publishedDate: ( new tc.DateTime( "2015-03-15T00:00"+TIMEZONE ) ).toIsoString()
+    },{
+      name: "Berliner Zeitung",
+      publishedDate: ( new tc.DateTime( "2015-03-15T00:00"+TIMEZONE ) ).toIsoString()
+    }]
   }
 }
