@@ -169,5 +169,10 @@ module.exports = {
         name:'Register Treptow-Köpenick'
       }
     ]
+  },
+  "https://www.reachoutberlin.de/de/content/berlin-hellersdorf-72": {
+    sources:[{
+      name: "Antirassistisches Register ASH, Polis*"
+    }]
   }
 }
