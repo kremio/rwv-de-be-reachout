@@ -188,7 +188,7 @@ module.exports = {
       name: "Register Friedrichshain-Kreuzberg"
     }]
   },
-  "https://www.reachoutberlin.de/de/content/berlin-marzahn-82": {
+  "https://www.reachoutberlin.de/de/content/berlin-marzahn-79": {
     sources:[{
       name: "Antirassistisches Register ASH, Polis*"
     }]
