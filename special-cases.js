@@ -174,5 +174,10 @@ module.exports = {
     sources:[{
       name: "Antirassistisches Register ASH, Polis*"
     }]
+  },
+  "https://www.reachoutberlin.de/de/content/berlin-marzahn-82": {
+    sources:[{
+      name: "Antirassistisches Register ASH, Polis*"
+    }]
   }
 }
