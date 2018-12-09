@@ -225,5 +225,25 @@ module.exports = {
       name:"SPD Pankow",
       publishedDate: ( new tc.DateTime( "2014-06-21T00:00"+TIMEZONE ) ).toIsoString()
     }]
+  },
+  "https://www.reachoutberlin.de/de/content/berlin-friedrichshain-170": {
+    sources:[{
+      name:"Polizei Berlin",
+      publishedDate: ( new tc.DateTime( "2013-10-05T00:00"+TIMEZONE ) ).toIsoString()
+    },{
+      name:"transtagung.de",
+      publishedDate: ( new tc.DateTime( "2013-10-04T00:00"+TIMEZONE ) ).toIsoString(),
+      url:"http://transtagung.de/"
+    },{
+       name:"queer.de",
+       publishedDate: ( new tc.DateTime( "2013-10-05T00:00"+TIMEZONE ) ).toIsoString(),
+       url:"https://www.queer.de/"
+    },{
+      name:"Tagesspiegel",
+      publishedDate: ( new tc.DateTime( "2013-10-05T00:00"+TIMEZONE ) ).toIsoString()
+    },{
+      name:"Berliner Zeitung",
+      publishedDate: ( new tc.DateTime( "2013-10-05T00:00"+TIMEZONE ) ).toIsoString()
+    }]
   }
 }
