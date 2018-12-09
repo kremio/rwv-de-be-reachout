@@ -179,5 +179,13 @@ module.exports = {
     sources:[{
       name: "Antirassistisches Register ASH, Polis*"
     }]
+  },
+  "https://www.reachoutberlin.de/de/content/berlin-friedrichshain-188": {
+    sources:[{
+      name: "Polizei Berlin",
+      publishedDate: ( new tc.DateTime( "2015-11-07T00:00"+TIMEZONE ) ).toIsoString()
+    },{
+      name: "Register Friedrichshain-Kreuzberg"
+    }]
   }
 }
