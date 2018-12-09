@@ -69,5 +69,35 @@ module.exports = {
         name:'ReachOut'
       }
     ]
+  },
+  "https://www.reachoutberlin.de/de/content/berlin-pankow-75": {
+    sources:[
+      {
+        name:'Polizei Berlin',
+        publishedDate: ( new tc.DateTime( "2016-09-27T00:00"+TIMEZONE ) ).toIsoString()
+      },
+      {
+        name:'Tagesspiegel',
+        publishedDate: ( new tc.DateTime( "2016-09-27T00:00"+TIMEZONE ) ).toIsoString()
+      },
+      {
+        name:'Berliner Zeitung',
+        publishedDate: ( new tc.DateTime( "2016-09-27T00:00"+TIMEZONE ) ).toIsoString()
+      },
+      {
+        name:'Berliner Morgenpost',
+        publishedDate: ( new tc.DateTime( "2016-09-27T00:00"+TIMEZONE ) ).toIsoString()
+      },
+      {
+        name:'rbb-online.de',
+        publishedDate: ( new tc.DateTime( "2016-09-27T00:00"+TIMEZONE ) ).toIsoString(),
+        url:'https://rbb-online.de'
+      },
+      {
+        name:'berlinonline.de',
+        publishedDate: ( new tc.DateTime( "2016-09-27T00:00"+TIMEZONE ) ).toIsoString(),
+        url:'https://berlinonline.de'
+      }
+    ]
   }
 }
