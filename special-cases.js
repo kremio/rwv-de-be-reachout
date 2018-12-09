@@ -51,5 +51,16 @@ module.exports = {
         publishedDate: ( new tc.DateTime( "2017-06-23T00:00"+TIMEZONE ) ).toIsoString()
       }
     ]
+  },
+  'https://www.reachoutberlin.de/de/content/berlin-charlottenburg-62': {
+    sources:[
+      {
+        name:'Tagesspiegel',
+        publishedDate: ( new tc.DateTime( "2017-03-12T00:00"+TIMEZONE ) ).toIsoString()
+      },      {
+        name:'Polizei Berlin',
+        publishedDate: ( new tc.DateTime( "2017-03-12T00:00"+TIMEZONE ) ).toIsoString()
+      }
+    ]
   }
 }
