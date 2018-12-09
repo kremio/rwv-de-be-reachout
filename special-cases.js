@@ -62,5 +62,12 @@ module.exports = {
         publishedDate: ( new tc.DateTime( "2017-03-12T00:00"+TIMEZONE ) ).toIsoString()
       }
     ]
+  },
+  "https://www.reachoutberlin.de/de/content/berlin-lichtenberg-117": {
+    sources:[
+      {
+        name:'ReachOut'
+      }
+    ]
   }
 }
