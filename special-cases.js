@@ -107,5 +107,23 @@ module.exports = {
         publishedDate: ( new tc.DateTime( "2017-02-27T00:00"+TIMEZONE ) ).toIsoString()
       }
     ]
+  },
+  "https://www.reachoutberlin.de/de/content/berlin-k%C3%B6penick-72": {
+    sources:[
+      {
+        name:'Polizei Berlin',
+        publishedDate: ( new tc.DateTime( "2016-08-16T00:00"+TIMEZONE ) ).toIsoString()
+      },
+      {
+        name:'rbb-online.de',
+        publishedDate: ( new tc.DateTime( "2016-08-16T00:00"+TIMEZONE ) ).toIsoString(),
+        url:'https://rbb-online.de'
+      },
+      {
+        name:'berlinonline.de',
+        publishedDate: ( new tc.DateTime( "2016-08-16T00:00"+TIMEZONE ) ).toIsoString(),
+        url:'https://berlinonline.de'
+      }
+    ]
   }
 }
