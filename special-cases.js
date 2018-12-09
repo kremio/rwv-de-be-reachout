@@ -216,5 +216,14 @@ module.exports = {
       name: "Berliner Zeitung",
       publishedDate: ( new tc.DateTime( "2015-02-20T00:00"+TIMEZONE ) ).toIsoString()
     }]
+  },
+  "https://www.reachoutberlin.de/de/content/berlin-pankow-51": {
+    sources:[{
+      name:"Polizei Berlin",
+      publishedDate: ( new tc.DateTime( "2014-06-22T00:00"+TIMEZONE ) ).toIsoString()
+    },{
+      name:"SPD Pankow",
+      publishedDate: ( new tc.DateTime( "2014-06-21T00:00"+TIMEZONE ) ).toIsoString()
+    }]
   }
 }
