@@ -204,5 +204,17 @@ module.exports = {
       name: "Berliner Zeitung",
       publishedDate: ( new tc.DateTime( "2015-03-15T00:00"+TIMEZONE ) ).toIsoString()
     }]
+  },
+  "https://www.reachoutberlin.de/de/content/berlin-mitte-64": {
+    sources:[{
+      name: "Polizei Berlin",
+      publishedDate: ( new tc.DateTime( "2015-02-20T00:00"+TIMEZONE ) ).toIsoString()
+    },{
+      name: "Tagesspiegel",
+      publishedDate: ( new tc.DateTime( "2015-02-20T00:00"+TIMEZONE ) ).toIsoString()
+    },{
+      name: "Berliner Zeitung",
+      publishedDate: ( new tc.DateTime( "2015-02-20T00:00"+TIMEZONE ) ).toIsoString()
+    }]
   }
 }
