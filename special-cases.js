@@ -147,6 +147,13 @@ module.exports = {
         url:'https://berlinonline.de'
       }
     ]
-
+  },
+  "https://www.reachoutberlin.de/de/content/berlin-wei%C3%9Fensee-35": {
+    sources:[
+      {
+        name:'Polizei Berlin',
+        publishedDate: ( new tc.DateTime( "2017-02-27T00:00"+TIMEZONE ) ).toIsoString()
+      }
+    ]
   }
 }
