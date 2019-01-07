@@ -289,5 +289,17 @@ module.exports = {
       name:"Polizei Berlin",
       publishedDate: ( new tc.DateTime( "2012-12-17T00:00"+TIMEZONE ) ).toIsoString()
     }]
+  },
+  "https://www.reachoutberlin.de/de/content/berlin-lichtenberg-74":{
+    sources:[{
+      name:"Polizei Berlin",
+      publishedDate: ( new tc.DateTime( "2011-05-23T00:00"+TIMEZONE ) ).toIsoString()
+    },{
+      name:"Taz",
+      publishedDate: ( new tc.DateTime( "2011-05-24T00:00"+TIMEZONE ) ).toIsoString()
+    },{
+      name:"Newsletter Licht-Blitze",
+      publishedDate: ( new tc.DateTime( "2011-06-01T00:00"+TIMEZONE ) ).toIsoString()
+    }]
   }
 }
