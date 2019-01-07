@@ -283,5 +283,11 @@ module.exports = {
       name:"Polizei Berlin",
       publishedDate: ( new tc.DateTime( "2012-12-17T00:00"+TIMEZONE ) ).toIsoString()
     }]
+  },
+  "https://www.reachoutberlin.de/de/content/berlin-mitte-u-bahnlinie-8":{
+    sources:[{
+      name:"Polizei Berlin",
+      publishedDate: ( new tc.DateTime( "2012-12-17T00:00"+TIMEZONE ) ).toIsoString()
+    }]
   }
 }
