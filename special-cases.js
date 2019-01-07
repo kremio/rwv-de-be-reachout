@@ -245,5 +245,17 @@ module.exports = {
       name:"Berliner Zeitung",
       publishedDate: ( new tc.DateTime( "2013-10-05T00:00"+TIMEZONE ) ).toIsoString()
     }]
+  },
+  "https://www.reachoutberlin.de/de/content/berlin-charlottenburg-23": {
+    sources:[{
+      name:"siegessäule.de",
+      publishedDate: ( new tc.DateTime( "2013-09-29T00:00"+TIMEZONE ) ).toIsoString(),
+      url:"https://www.siegessaeule.de/"
+    },{
+      name:"Tagesspiegel",
+      publishedDate: ( new tc.DateTime( "2013-09-30T00:00"+TIMEZONE ) ).toIsoString()
+    },{
+       name:"Infoportal Charlottenburg Wilmersdorf",
+    }]
   }
 }
