@@ -257,5 +257,26 @@ module.exports = {
     },{
        name:"Infoportal Charlottenburg Wilmersdorf",
     }]
+  },
+  "https://www.reachoutberlin.de/de/content/berlin-charlottenburg-17": {
+    sources:[{
+      name:"Berliner Kurier",
+      publishedDate: ( new tc.DateTime( "2013-01-02T00:00"+TIMEZONE ) ).toIsoString()
+    },{
+      name:"Polizei Berlin",
+      publishedDate: ( new tc.DateTime( "2013-01-02T00:00"+TIMEZONE ) ).toIsoString()
+    },{
+      name:"Berliner Zeitung",
+      publishedDate: ( new tc.DateTime( "2013-01-03T00:00"+TIMEZONE ) ).toIsoString()
+    },{
+      name:"Tageszeitung",
+      publishedDate: ( new tc.DateTime( "2013-01-04T00:00"+TIMEZONE ) ).toIsoString()
+    },{
+      name:"Tagesspiegel",
+      publishedDate: ( new tc.DateTime( "2013-01-05T00:00"+TIMEZONE ) ).toIsoString()
+    },{
+       name:"ReachOut",
+    }]
+
   }
 }
