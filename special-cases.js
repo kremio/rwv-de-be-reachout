@@ -277,6 +277,11 @@ module.exports = {
     },{
        name:"ReachOut",
     }]
-
+  },
+  "https://www.reachoutberlin.de/de/content/berlin-mitte-40":{
+    sources:[{
+      name:"Polizei Berlin",
+      publishedDate: ( new tc.DateTime( "2012-12-17T00:00"+TIMEZONE ) ).toIsoString()
+    }]
   }
 }
