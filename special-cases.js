@@ -319,5 +319,23 @@ module.exports = {
       name:"Newsletter Licht-Blitze",
       publishedDate: ( new tc.DateTime( "2010-11-01T00:00"+TIMEZONE ) ).toIsoString()
     }]
+  },
+  "https://www.reachoutberlin.de/de/content/berlin-treptow-44":{
+    sources:[{
+      name:"Polizei Berlin",
+      pusblishedDate: ( new tc.DateTime( "2009-12-11T00:00"+TIMEZONE ) ).toIsoString()
+    },{
+      name:"Tagesspiegel",
+      pusblishedDate: ( new tc.DateTime( "2009-12-11T00:00"+TIMEZONE ) ).toIsoString()
+    },{
+      name:"Berliner Kurier",
+      pusblishedDate: ( new tc.DateTime( "2009-12-11T00:00"+TIMEZONE ) ).toIsoString()
+    },{
+      name:"BerlinOnline",
+      pusblishedDate: ( new tc.DateTime( "2009-12-11T00:00"+TIMEZONE ) ).toIsoString()
+    },{
+      name:"Berliner Morgenpost",
+      pusblishedDate: ( new tc.DateTime( "2009-12-12T00:00"+TIMEZONE ) ).toIsoString()
+    }]
   }
 }
