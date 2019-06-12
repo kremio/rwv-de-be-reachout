@@ -387,5 +387,13 @@ module.exports = {
     },{
       name:'ReachOut'
     }]
+  },
+  "https://www.reachoutberlin.de/de/content/berlin-friedrichshain-106":{
+    sources:[{
+      name:"indymedia",
+      pusblishedDate: ( new tc.DateTime( "2008-08-04T00:00"+TIMEZONE ) ).toIsoString()
+    },{
+      name:"Antifa Friedrichshain"
+    }]
   }
 }
