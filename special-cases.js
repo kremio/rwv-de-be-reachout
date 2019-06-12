@@ -395,5 +395,58 @@ module.exports = {
     },{
       name:"Antifa Friedrichshain"
     }]
+  },
+  "https://www.reachoutberlin.de/de/content/berlin-mitte-u-bahnhof-alexanderplatz":{
+    sources:[{
+      name:"Pressemeldung der Polizei",
+      pusblishedDate: ( new tc.DateTime( "2008-05-05T00:00"+TIMEZONE ) ).toIsoString()
+    },{
+      name:"Tagesspiegel",
+      pusblishedDate: ( new tc.DateTime( "2008-05-05T00:00"+TIMEZONE ) ).toIsoString()
+    },{
+      name:"Tagesspiegel",
+      pusblishedDate: ( new tc.DateTime( "2008-05-06T00:00"+TIMEZONE ) ).toIsoString()
+    },{
+      name:"BerlinOnline",
+      pusblishedDate: ( new tc.DateTime( "2008-05-05T00:00"+TIMEZONE ) ).toIsoString()
+    },{
+      name:"WeltOnline",
+      pusblishedDate: ( new tc.DateTime( "2008-05-05T00:00"+TIMEZONE ) ).toIsoString()
+    },{
+      name:"Berliner Zeitung",
+      pusblishedDate: ( new tc.DateTime( "2008-05-06T00:00"+TIMEZONE ) ).toIsoString()
+    },{
+      name:"Berliner Morgenpost",
+      pusblishedDate: ( new tc.DateTime( "2008-05-06T00:00"+TIMEZONE ) ).toIsoString()
+    },{
+      name:"taz",
+      pusblishedDate: ( new tc.DateTime( "2008-05-06T00:00"+TIMEZONE ) ).toIsoString()
+    }]
+  },
+  "https://www.reachoutberlin.de/de/content/berlin-neuk%C3%B6lln-9":{
+     sources:[{
+      name:"Pressemeldung der Polizei",
+      pusblishedDate: ( new tc.DateTime( "2008-04-20T00:00"+TIMEZONE ) ).toIsoString()
+    },{
+      name:"Berliner Zeitung",
+      pusblishedDate: ( new tc.DateTime( "2008-04-20T00:00"+TIMEZONE ) ).toIsoString()
+    },{
+      name:"Welt",
+      pusblishedDate: ( new tc.DateTime( "2008-04-20T00:00"+TIMEZONE ) ).toIsoString()
+    },{
+      name:"Tagesspiegel",
+      pusblishedDate: ( new tc.DateTime( "2008-04-21T00:00"+TIMEZONE ) ).toIsoString()
+    },{
+      name:"Berliner Morgenpost",
+      pusblishedDate: ( new tc.DateTime( "2008-04-21T00:00"+TIMEZONE ) ).toIsoString()
+    },{
+      name:"BZ",
+      pusblishedDate: ( new tc.DateTime( "2008-04-21T00:00"+TIMEZONE ) ).toIsoString()
+    },{
+      name:"Berliner Kurier",
+      pusblishedDate: ( new tc.DateTime( "2008-04-21T00:00"+TIMEZONE ) ).toIsoString()
+     },{
+       name:"Antifa Neukölln"
+     }]
   }
 }
