@@ -301,5 +301,17 @@ module.exports = {
       name:"Newsletter Licht-Blitze",
       publishedDate: ( new tc.DateTime( "2011-06-01T00:00"+TIMEZONE ) ).toIsoString()
     }]
+  },
+  "https://www.reachoutberlin.de/de/content/berlin-lichtenberg-72":{
+    sources:[{
+      name:"Newsletter Licht-Blitze",
+      publishedDate: ( new tc.DateTime( "2011-03-01T00:00"+TIMEZONE ) ).toIsoString()
+    }]
+  },
+  "https://www.reachoutberlin.de/de/content/berlin-lichtenberg-71":{
+    sources:[{
+      name:"Newsletter Licht-Blitze",
+      publishedDate: ( new tc.DateTime( "2011-03-01T00:00"+TIMEZONE ) ).toIsoString()
+    }]
   }
 }
