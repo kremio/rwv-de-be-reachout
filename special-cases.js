@@ -337,5 +337,55 @@ module.exports = {
       name:"Berliner Morgenpost",
       pusblishedDate: ( new tc.DateTime( "2009-12-12T00:00"+TIMEZONE ) ).toIsoString()
     }]
+  },
+  "https://www.reachoutberlin.de/de/content/berlin-wedding-u-bahnhof-rehberge":{
+    sources:[{
+      name:"Polizei Berlin",
+      pusblishedDate: ( new tc.DateTime( "2009-09-19T00:00"+TIMEZONE ) ).toIsoString()
+    },{
+      name:"Polizei Berlin",
+      pusblishedDate: ( new tc.DateTime( "2009-09-22T00:00"+TIMEZONE ) ).toIsoString()
+    },{
+      name:"Berliner Zeitung",
+      pusblishedDate: ( new tc.DateTime( "2009-09-20T00:00"+TIMEZONE ) ).toIsoString()
+    },{
+      name:"Berliner Zeitung",
+      pusblishedDate: ( new tc.DateTime( "2009-09-22T00:00"+TIMEZONE ) ).toIsoString()
+    },{
+      name:"Berliner Kurier",
+      pusblishedDate: ( new tc.DateTime( "2009-09-20T00:00"+TIMEZONE ) ).toIsoString()
+    },{
+      name:"BerlinOnline",
+      pusblishedDate: ( new tc.DateTime( "2009-09-20T00:00"+TIMEZONE ) ).toIsoString()
+    },{
+      name:"BerlinOnline",
+      pusblishedDate: ( new tc.DateTime( "2009-09-23T00:00"+TIMEZONE ) ).toIsoString()
+    },{
+      name:"indymedia",
+      pusblishedDate: ( new tc.DateTime( "2009-09-20T00:00"+TIMEZONE ) ).toIsoString()
+    },{
+      name:"indymedia",
+      pusblishedDate: ( new tc.DateTime( "2009-09-22T00:00"+TIMEZONE ) ).toIsoString()
+    },{
+      name:"BZ",
+      pusblishedDate: ( new tc.DateTime( "2009-09-20T00:00"+TIMEZONE ) ).toIsoString()
+    },{
+      name:"BZ",
+      pusblishedDate: ( new tc.DateTime( "2009-09-22T00:00"+TIMEZONE ) ).toIsoString()
+    },{
+      name:"Berliner Morgenpost",
+      pusblishedDate: ( new tc.DateTime( "2009-09-22T00:00"+TIMEZONE ) ).toIsoString()
+    },{
+      name:"BZ",
+      pusblishedDate: ( new tc.DateTime( "2009-09-23T00:00"+TIMEZONE ) ).toIsoString()
+    },{
+      name:"Tagesspiegel",
+      pusblishedDate: ( new tc.DateTime( "2009-09-23T00:00"+TIMEZONE ) ).toIsoString()
+    },{
+      name:"http://npd-blog.info",
+      pusblishedDate: ( new tc.DateTime( "2009-09-23T00:00"+TIMEZONE ) ).toIsoString()
+    },{
+      name:'ReachOut'
+    }]
   }
 }
