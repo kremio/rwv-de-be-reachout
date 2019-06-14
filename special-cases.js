@@ -515,5 +515,22 @@ module.exports = {
     },{
       name:"ReacOut"
     }]
+  },
+  "https://www.reachoutberlin.de/de/content/berlin-friedrichshain-24":{
+    sources:[{
+      name:"Neues Deutschland",
+      pusblishedDate: ( new tc.DateTime( "2006-02-01T00:00"+TIMEZONE ) ).toIsoString()
+    },{
+      name:"Berliner Zeitung",
+      pusblishedDate: ( new tc.DateTime( "2006-02-01T00:00"+TIMEZONE ) ).toIsoString()
+    },{
+      name:"Junger Welt",
+      pusblishedDate: ( new tc.DateTime( "2006-02-01T00:00"+TIMEZONE ) ).toIsoString()
+    },{
+      name:"taz",
+      pusblishedDate: ( new tc.DateTime( "2006-02-01T00:00"+TIMEZONE ) ).toIsoString()
+    },{
+      name:"Antifa Friedrichshain"
+    }]
   }
 }
