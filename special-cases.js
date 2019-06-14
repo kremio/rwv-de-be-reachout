@@ -482,5 +482,11 @@ module.exports = {
     },{
       name:"Antifa Hohenschönhausen"
     }]
+  },
+  "https://www.reachoutberlin.de/de/content/berlin-treptow-15":{
+    sources:[{
+      name:"Pressemeldung der Polizei",
+      pusblishedDate: ( new tc.DateTime( "2006-11-12T00:00"+TIMEZONE ) ).toIsoString()
+    }]
   }
 }
