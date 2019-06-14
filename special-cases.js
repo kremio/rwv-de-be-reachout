@@ -488,5 +488,12 @@ module.exports = {
       name:"Pressemeldung der Polizei",
       pusblishedDate: ( new tc.DateTime( "2006-11-12T00:00"+TIMEZONE ) ).toIsoString()
     }]
+  },
+  "https://www.reachoutberlin.de/de/content/berlin-pankow-11":{
+    sources:[{
+      name:"Pankower Netzwerk gegen Rassismus, Antisemitismus und rechte Gewalt"
+    },{
+      name:"Pankower Register"
+    }]
   }
 }
