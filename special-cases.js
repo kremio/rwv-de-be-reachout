@@ -532,5 +532,25 @@ module.exports = {
     },{
       name:"Antifa Friedrichshain"
     }]
+  },
+  "https://www.reachoutberlin.de/de/content/berlin-prenzlauer-berg-tramlinie-m4":{
+    sources:[{
+      name:"Polizei Berlin",
+      pusblishedDate: ( new tc.DateTime( "2019-04-15T00:00"+TIMEZONE ) ).toIsoString()
+    },{
+      name:"Tagesspiegel",
+      pusblishedDate: ( new tc.DateTime( "2019-04-15T00:00"+TIMEZONE ) ).toIsoString()
+    },{
+      name:"Berliner Zeitung",
+      pusblishedDate: ( new tc.DateTime( "2019-04-15T00:00"+TIMEZONE ) ).toIsoString()
+    },{
+      name:"Neues Deutschland",
+      pusblishedDate: ( new tc.DateTime( "2019-04-16T00:00"+TIMEZONE ) ).toIsoString()
+    },{
+      name:"nau.ch",
+      pusblishedDate: ( new tc.DateTime( "2019-04-15T00:00"+TIMEZONE ) ).toIsoString()
+    },{
+      name:"Pankower Register"
+    }]
   }
 }
