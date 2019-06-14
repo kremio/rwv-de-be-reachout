@@ -495,5 +495,25 @@ module.exports = {
     },{
       name:"Pankower Register"
     }]
+  },
+  "https://www.reachoutberlin.de/de/content/berlin-neuk%C3%B6lln-2":{
+    sources:[{
+      name:"Pressemeldung der Polizei",
+      pusblishedDate: ( new tc.DateTime( "2006-08-26T00:00"+TIMEZONE ) ).toIsoString()
+    },{
+      name:"Berliner Morgenpost",
+      pusblishedDate: ( new tc.DateTime( "2006-08-27T00:00"+TIMEZONE ) ).toIsoString()
+    },{
+      name:"Berliner Kurier",
+      pusblishedDate: ( new tc.DateTime( "2006-08-27T00:00"+TIMEZONE ) ).toIsoString()
+    },{
+      name:"Die Welt",
+      pusblishedDate: ( new tc.DateTime( "2006-08-28T00:00"+TIMEZONE ) ).toIsoString()
+    },{
+      name:"BZ",
+      pusblishedDate: ( new tc.DateTime( "2006-08-27T00:00"+TIMEZONE ) ).toIsoString()
+    },{
+      name:"ReacOut"
+    }]
   }
 }
