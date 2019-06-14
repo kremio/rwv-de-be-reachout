@@ -448,5 +448,19 @@ module.exports = {
      },{
        name:"Antifa Neukölln"
      }]
+  },
+  "https://www.reachoutberlin.de/de/content/berlin-lichtenberg-46":{
+    sources:[{
+      name:"Pressemeldung der Polizei",
+      pusblishedDate: ( new tc.DateTime( "2007-11-24T00:00"+TIMEZONE ) ).toIsoString()
+    },{
+      name:"BerlinOnline",
+      pusblishedDate: ( new tc.DateTime( "2007-11-24T00:00"+TIMEZONE ) ).toIsoString()
+    },{
+      name:"Berliner Zeitung",
+      pusblishedDate: ( new tc.DateTime( "2007-11-26T00:00"+TIMEZONE ) ).toIsoString()
+    },{
+      name:"Antifa Hohenschönhausen"
+    }]
   }
 }
