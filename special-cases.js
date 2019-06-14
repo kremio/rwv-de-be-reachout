@@ -462,5 +462,25 @@ module.exports = {
     },{
       name:"Antifa Hohenschönhausen"
     }]
+  },
+  "https://www.reachoutberlin.de/de/content/berlin-lichtenberg-30":{
+    sources:[{
+      name:"Pressemeldung der Polizei",
+      pusblishedDate: ( new tc.DateTime( "2007-01-22T00:00"+TIMEZONE ) ).toIsoString()
+    },{
+      name:"Pressemeldung der Polizei",
+      pusblishedDate: ( new tc.DateTime( "2007-02-05T00:00"+TIMEZONE ) ).toIsoString()
+    },{
+      name:"Berliner Morgenpost",
+      pusblishedDate: ( new tc.DateTime( "2007-01-23T00:00"+TIMEZONE ) ).toIsoString()
+    },{
+      name:"taz",
+      pusblishedDate: ( new tc.DateTime( "2007-01-23T00:00"+TIMEZONE ) ).toIsoString()
+    },{
+      name:"taz",
+      pusblishedDate: ( new tc.DateTime( "2007-02-07T00:00"+TIMEZONE ) ).toIsoString()
+    },{
+      name:"Antifa Hohenschönhausen"
+    }]
   }
 }
